@@ -1,0 +1,68 @@
+/* styles.css */
+/* background-image: url('images/logo.jpg'); /* Путь к вашему логотипу */
+/* background-repeat: no-repeat; /* Предотвратить повторение фонового изображения */
+/* background-size: contain; /* Растянуть изображение на весь экран */
+/* background-position: center;
+/* background-attachment: fixed; */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding: 20px; /* Добавляем отступы сверху для центрирования */
+    background-image: url('./images/dimook.jpg');
+    background-repeat: no-repeat;
+    background:"blue";
+    color:grey;
+}
+
+.center {
+    text-align: center;
+    width: 80%; /* Ограничиваем ширину контейнера таблицы */
+}
+
+.responstable {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto; /* Центрирование таблицы */
+}
+
+.responstable th,
+.responstable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; /* Центрирование содержимого ячеек */
+}
+
+.responstable th {
+    background-color: #f2f2f2;
+}
+
+.responstable tbody tr:hover {
+    background-color: #f0f0f0; /* Подсветка при наведении */
+}
+
+.selected {
+    background-color: lightblue; /* Цвет выделенной строки */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    margin-right: 10px;
+}
+.logo {
+    width: 100px; /* Устанавливаем ширину изображения */
+    height: auto; /* Автоматически подстраиваем высоту */
+    position: absolute; /* Позиционируем абсолютно */
+    top: 20px; /* Отступ сверху */
+    right: 20px; /* Отступ справа */
+}
+
+.responstable td:nth-child(3) {
+    vertical-align: top; /* Выравниваем содержимое ячеек по верхнему краю */
+    height: 100%; /* Растягиваем ячейки на всю высоту */
+}

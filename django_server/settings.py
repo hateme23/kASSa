@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-om!y86s+i94uvqlvvlv!*m_zmptwxq27w@6q%5z+%=)(c+!l@w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [kassa-1.onrender.com]
 
 
 # Application definition
